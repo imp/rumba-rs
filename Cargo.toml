@@ -1,15 +1,15 @@
 [package]
-name = "rumba"
-version = "0.0.0"
 authors = ["Cyril Plisko <cyril.plisko@mountall.com>"]
+categories = []
 description = "[WIP] SMB protocol implementation in Rust"
+documentation = "https://docs.rs/rumba-rs"
+homepage = "https://gitlab.com/imp/rumba-rs"
 keywords = ["smb", "samba", "fileserver"]
 license = "Apache-2.0/MIT"
+name = "rumba"
 readme = "README.md"
 repository = "https://gitlab.com/imp/rumba-rs.git"
-homepage = "https://gitlab.com/imp/rumba-rs"
-documentation = "https://docs.rs/rumba-rs"
-categories = []
-
+version = "0.0.0"
 
 [dependencies]
+byteorder = "1.0"
